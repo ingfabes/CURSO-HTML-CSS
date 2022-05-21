@@ -8,8 +8,18 @@
     <meta name="keywords" content="bebida,gaseosa,cola" />
     <title>Inicio - Coca Cola</title>
     <link rel="shortcut icon" href="IMG/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/57ece118a7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -24,6 +34,7 @@
           <a href="#galeria">Galería</a>
           <a href="#contactenos">Contactenos</a>
         </nav>
+        <a href="" class="hamb"><i class="fa-solid fa-bars"></i></a>
       </div>
     </header>
     <main>
@@ -36,23 +47,25 @@
             sit eius repellendus ex excepturi at, quas modi laborum soluta quae
             minima maiores id nihil, numquam repudiandae optio aperiam dolores?
           </p>
-          <a href="#nosotros" class="boton">Ver más</a>
+          <a href="#nosotros" class="boton boton-rojo">Ver más</a>
         </div>
       </section>
-      <section id="nosotros">
+      <section id="nosotros" class="seccion">
         <div class="container">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
-          exercitationem rerum corrupti a, numquam eveniet eos est tempore aut
-          officiis corporis ullam accusantium quis enim saepe, illo labore
-          praesentium vel.
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+            exercitationem rerum corrupti a, numquam eveniet eos est tempore aut
+            officiis corporis ullam accusantium quis enim saepe, illo labore
+            praesentium vel.
+          </p>
         </div>
       </section>
-      <section id="servicios">
+      <section id="servicios" class="seccion">
         <div class="container">
           <div class="row">
-            <div class="columna columna-33">
+            <div class="columna columna-33 columna-mobile-100">
               <div class="bloque-servicio">
-                <div class="bloque-img-servicio">
+                <div class="bloque-img-servicio cuadrado-perfecto">
                   <img src="img/servicio1.jpg" alt="" />
                 </div>
                 <div class="bloque-contenido-servicio">
@@ -63,13 +76,13 @@
                     explicabo dicta eius, assumenda magni animi aliquid dolorem
                     mollitia. Qui debitis expedita accusantium est nam!
                   </p>
-                  <a href="#">Ver más</a>
+                  <a href="#" class="boton boton-blanco">Ver más</a>
                 </div>
               </div>
             </div>
-            <div class="columna columna-33">
+            <div class="columna columna-33 columna-mobile-100">
               <div class="bloque-servicio">
-                <div class="bloque-img-servicio">
+                <div class="bloque-img-servicio cuadrado-perfecto">
                   <img src="img/servicio2.jpg" alt="" />
                 </div>
                 <div class="bloque-contenido-servicio">
@@ -80,13 +93,13 @@
                     explicabo dicta eius, assumenda magni animi aliquid dolorem
                     mollitia. Qui debitis expedita accusantium est nam!
                   </p>
-                  <a href="#">Ver más</a>
+                  <a href="#" class="boton boton-blanco">Ver más</a>
                 </div>
               </div>
             </div>
-            <div class="columna columna-33">
+            <div class="columna columna-33 columna-mobile-100">
               <div class="bloque-servicio">
-                <div class="bloque-img-servicio">
+                <div class="bloque-img-servicio cuadrado-perfecto">
                   <img src="img/servicio3.jpg" alt="" />
                 </div>
                 <div class="bloque-contenido-servicio">
@@ -97,7 +110,7 @@
                     explicabo dicta eius, assumenda magni animi aliquid dolorem
                     mollitia. Qui debitis expedita accusantium est nam!
                   </p>
-                  <a href="#">Ver más</a>
+                  <a href="#" class="boton boton-blanco">Ver más</a>
                 </div>
               </div>
             </div>
@@ -107,37 +120,37 @@
       <section id="galeria">
         <div class="container-fluid">
           <div class="row">
-            <div class="columna columna-33">
+            <div class="columna-33 columna-mobile-50">
               <div class="cuadrado-perfecto">
                 <img src="img/servicio1.jpg" alt="" />
                 <h4>Imagen 1</h4>
               </div>
             </div>
-            <div class="columna columna-33">
+            <div class="columna-33 columna-mobile-50">
               <div class="cuadrado-perfecto">
                 <img src="img/servicio2.jpg" alt="" />
                 <h4>Imagen 2</h4>
               </div>
             </div>
-            <div class="columna columna-33">
+            <div class="columna-33 columna-mobile-50">
               <div class="cuadrado-perfecto">
                 <img src="img/servicio3.jpg" alt="" />
                 <h4>Imagen 3</h4>
               </div>
             </div>
-            <div class="columna columna-33">
+            <div class="columna-33 columna-mobile-50">
               <div class="cuadrado-perfecto">
                 <img src="img/servicio4.jpg" alt="" />
                 <h4>Imagen 4</h4>
               </div>
             </div>
-            <div class="columna columna-33">
+            <div class="columna-33 columna-mobile-50">
               <div class="cuadrado-perfecto">
                 <img src="img/servicio5.jpg" alt="" />
                 <h4>Imagen 5</h4>
               </div>
             </div>
-            <div class="columna columna-33">
+            <div class="columna-33 columna-mobile-50">
               <div class="cuadrado-perfecto">
                 <img src="img/servicio6.jpg" alt="" />
                 <h4>Imagen 6</h4>
@@ -146,39 +159,53 @@
           </div>
         </div>
       </section>
-      <section id="contactenos">
-        <div class="container">
-          <div class="row">
-            <div class="columna columna-50">
-              <form action="" method="post">
-                <div class="form-block">
-                  <input type="text" name="nombre" class="form-control" />
-                </div>
-                <div class="form-block">
-                  <input type="email" name="email" class="form-control" />
-                </div>
-                <div class="form-block">
-                  <textarea name="mensaje"></textarea>
-                </div>
-                <div class="form-block">
-                  <button type="submit">Enviar</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+      <section id="contactenos" class="seccion">
         <iframe
           width="600"
           height="500"
           id="gmap_canvas"
           src="https://maps.google.com/maps?q=monter%C3%ADa&t=&z=13&ie=UTF8&iwloc=&output=embed"
         ></iframe>
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="columna columna-33 empujar-66 columna-mobile-100 empujar-mobile-0 sinpadding-mobile"
+            >
+              <form action="" method="post">
+                <div class="form-block">
+                  <input
+                    type="text"
+                    name="nombre"
+                    class="form-control"
+                    placeholder="Nombre"
+                  />
+                </div>
+                <div class="form-block">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="form-block">
+                  <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                </div>
+                <div class="form-block bloque-ultimo">
+                  <button type="submit" class="boton boton-negro">
+                    Enviar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
+    <footer class="seccion">
       <div class="container">
         <div class="row">
-          <div class="columna columna-25">
+          <div class="columna columna-25 columna-mobile-100">
             <img src="img/logo-blanco.png" alt="" class="logo-footer" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
@@ -187,7 +214,7 @@
               omnis a?
             </p>
           </div>
-          <div class="columna columna-25">
+          <div class="columna columna-25 columna-mobile-100">
             <h3>Temas relacionados</h3>
             <ul>
               <li><a href="#">Tema 1</a></li>
@@ -195,7 +222,7 @@
               <li><a href="#">Tema 3</a></li>
             </ul>
           </div>
-          <div class="columna columna-25">
+          <div class="columna columna-25 columna-mobile-100">
             <h3>Datos de contacto</h3>
             <ul>
               <li>unico1797@gmail.com</li>
@@ -203,17 +230,17 @@
               <li>Montería - Córdoba</li>
             </ul>
           </div>
-          <div class="columna columna-25">
+          <div class="columna columna-25 columna-mobile-100">
             <h3>Redes sociales</h3>
-            <ul>
+            <ul class="redes">
               <li>
-                <a href="#"><i></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
               </li>
               <li>
-                <a href="#"><i></i></a>
+                <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
               </li>
               <li>
-                <a href="#"><i></i></a>
+                <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
               </li>
             </ul>
           </div>
